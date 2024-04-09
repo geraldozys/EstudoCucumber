@@ -1,0 +1,482 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 943379600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo realizar o login",
+            "match": {
+              "location": "saucedemoLoginSteps.queDesejoRealizarOLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-09T17:40:33.246Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2397815100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "saucedemoLoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "",
+        "description": "",
+        "id": "realizar-login;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 160059900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "saucedemoLoginSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 257132200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "adiciono o login \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "saucedemoLoginSteps.adicionoOLogin(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 40356100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o sistema deverá fazer o login com sucesso",
+            "match": {
+              "location": "saucedemoLoginSteps.oSistemaDeveráFazerOLoginComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 544886100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo realizar o login",
+            "match": {
+              "location": "saucedemoLoginSteps.queDesejoRealizarOLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-09T17:40:37.086Z",
+        "before": [
+          {
+            "result": {
+              "duration": 992185300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "saucedemoLoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "",
+        "description": "",
+        "id": "realizar-login;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 186692900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "saucedemoLoginSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 214108600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "adiciono o login \"problem_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "saucedemoLoginSteps.adicionoOLogin(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 35710700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o sistema deverá fazer o login com sucesso",
+            "match": {
+              "location": "saucedemoLoginSteps.oSistemaDeveráFazerOLoginComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 494064700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo realizar o login",
+            "match": {
+              "location": "saucedemoLoginSteps.queDesejoRealizarOLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-09T17:40:39.063Z",
+        "before": [
+          {
+            "result": {
+              "duration": 933233300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "saucedemoLoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "",
+        "description": "",
+        "id": "realizar-login;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 180422500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "saucedemoLoginSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5228590800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "adiciono o login \"performance_glitch_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_glitch_user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "saucedemoLoginSteps.adicionoOLogin(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 28911400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o sistema deverá fazer o login com sucesso",
+            "match": {
+              "location": "saucedemoLoginSteps.oSistemaDeveráFazerOLoginComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 489572200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo realizar o login",
+            "match": {
+              "location": "saucedemoLoginSteps.queDesejoRealizarOLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-09T17:40:45.933Z",
+        "before": [
+          {
+            "result": {
+              "duration": 967887400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "saucedemoLoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "",
+        "description": "",
+        "id": "realizar-login;;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 152809500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "saucedemoLoginSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 207778500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "adiciono o login \"error_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error_user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "saucedemoLoginSteps.adicionoOLogin(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 42066000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o sistema deverá fazer o login com sucesso",
+            "match": {
+              "location": "saucedemoLoginSteps.oSistemaDeveráFazerOLoginComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 484143300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo realizar o login",
+            "match": {
+              "location": "saucedemoLoginSteps.queDesejoRealizarOLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-09T17:40:47.797Z",
+        "before": [
+          {
+            "result": {
+              "duration": 931997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "saucedemoLoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "",
+        "description": "",
+        "id": "realizar-login;;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 153529600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "saucedemoLoginSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 209826500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "adiciono o login \"visual_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"visual_user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "saucedemoLoginSteps.adicionoOLogin(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 45662000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o sistema deverá fazer o login com sucesso",
+            "match": {
+              "location": "saucedemoLoginSteps.oSistemaDeveráFazerOLoginComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Realizar login",
+    "description": "  Como um usuário\n  Gostaria de realizar o login\n  Para que possa acessar a plataforma de compras",
+    "id": "realizar-login",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/saucedemoLogin.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
