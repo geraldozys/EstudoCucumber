@@ -1,6 +1,5 @@
 #language: pt
 
-
 Funcionalidade: Realizar login
   
   Como um usuário
@@ -10,7 +9,7 @@ Funcionalidade: Realizar login
 Contexto:
 	Dado que desejo realizar o login
 
-Esquema do Cenario: 
+Esquema do Cenario: Deve realizar o login "<login>"
 	Quando adiciono o login "<login>"
 	Então o sistema deverá fazer o login com sucesso
 	

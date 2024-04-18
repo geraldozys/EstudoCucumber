@@ -2,22 +2,12 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "name": "Realizar login",
   "description": "  Como um usuário\n  Gostaria de realizar o login\n  Para que possa acessar a plataforma de compras",
-  "keyword": "Funcionalidade",
-  "tags": [
-    {
-      "name": "@tag"
-    }
-  ]
+  "keyword": "Funcionalidade"
 });
 formatter.scenarioOutline({
-  "name": "",
+  "name": "Deve realizar o login \"\u003clogin\u003e\"",
   "description": "",
-  "keyword": "Esquema do Cenario",
-  "tags": [
-    {
-      "name": "@tag1"
-    }
-  ]
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
   "name": "adiciono o login \"\u003clogin\u003e\"",
@@ -83,17 +73,9 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "",
+  "name": "Deve realizar o login \"standard_user\"",
   "description": "",
-  "keyword": "Esquema do Cenario",
-  "tags": [
-    {
-      "name": "@tag"
-    },
-    {
-      "name": "@tag1"
-    }
-  ]
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
   "name": "adiciono o login \"standard_user\"",
@@ -137,17 +119,9 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "",
+  "name": "Deve realizar o login \"problem_user\"",
   "description": "",
-  "keyword": "Esquema do Cenario",
-  "tags": [
-    {
-      "name": "@tag"
-    },
-    {
-      "name": "@tag1"
-    }
-  ]
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
   "name": "adiciono o login \"problem_user\"",
@@ -191,17 +165,9 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "",
+  "name": "Deve realizar o login \"performance_glitch_user\"",
   "description": "",
-  "keyword": "Esquema do Cenario",
-  "tags": [
-    {
-      "name": "@tag"
-    },
-    {
-      "name": "@tag1"
-    }
-  ]
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
   "name": "adiciono o login \"performance_glitch_user\"",
@@ -245,17 +211,9 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "",
+  "name": "Deve realizar o login \"error_user\"",
   "description": "",
-  "keyword": "Esquema do Cenario",
-  "tags": [
-    {
-      "name": "@tag"
-    },
-    {
-      "name": "@tag1"
-    }
-  ]
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
   "name": "adiciono o login \"error_user\"",
@@ -299,17 +257,9 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "",
+  "name": "Deve realizar o login \"visual_user\"",
   "description": "",
-  "keyword": "Esquema do Cenario",
-  "tags": [
-    {
-      "name": "@tag"
-    },
-    {
-      "name": "@tag1"
-    }
-  ]
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
   "name": "adiciono o login \"visual_user\"",
